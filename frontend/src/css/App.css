@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.5;
+    color: #111827;
+    background: #fff;
+}
+
+button,
+input,
+table {
+    font: inherit;
+}
+
+.message {
+    margin: 0.75rem 0;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.error {
+    background: #fef2f2;
+    border-color: #fecaca;
+    color: #991b1b;
+}
+
+.success {
+    background: #f0fdf4;
+    border-color: #bbf7d0;
+    color: #166534;
+}
+
+.info {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+}
+
+button {
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
