@@ -10,7 +10,7 @@ This project combines mapping, spatial databases, and external API integration t
 
 ## Links / screenshots
 
-- Repository: [GitHub repo link]
+- Repository: [GitHub repo](https://github.com/w-turney/Deforestation-tracker)
 
 ### Home map
 ![Home map](./screenshots/home-map.png)
