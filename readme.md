@@ -148,9 +148,6 @@ In a real deployment, the frontend and backend would be truly cross-origin. This
 - **Designing a guest authentication system**  
   Implementing JWT-based sessions using HTTP-only cookies allowed me to persist user data without building a full authentication system.
 
-- **Balancing UX with data constraints**  
-  Limiting alerts to higher confidence levels improves performance but delays visibility of the newest alerts, highlighting real-world trade-offs between accuracy and responsiveness.
-
 - **Dealing with external API limitations**  
   The GFW SQL endpoint does not always support expected query patterns (e.g. aggregation issues), requiring workarounds such as compiling trend data manually.
 
@@ -167,8 +164,7 @@ In a real deployment, the frontend and backend would be truly cross-origin. This
 ## Future improvements
 
 - Implementing a full user account system with persistent authentication.
-- Improved trend analysis and visualisations
-- Production-ready deployment and security configuration
+- More detailed trend analysis and visualisations
 
 ---
 
@@ -176,7 +172,7 @@ In a real deployment, the frontend and backend would be truly cross-origin. This
 
 ### Prerequisites
 
-- Node.js (LTS recommended)  
+- Node.js
 - PostgreSQL
 - PostGIS extension
 - Global Forest Watch API Key
