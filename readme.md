@@ -129,12 +129,6 @@ Because of this:
 - Cookies are sent automatically without needing credentials: 'include'
 - The cross-origin nature of the architecture is effectively masked
 
-This setup was chosen to balance simplicity and realism:
-
-- Separation of concerns: The frontend does not manage authentication state directly; the browser handles cookies automatically
-- Improved security: HTTP-only cookies reduce exposure compared to storing tokens in localStorage
-- Simple session model: Guest users can create and retrieve AOIs without signup/login flows
-
 In a real deployment, the frontend and backend would be truly cross-origin. This would require:
 
 - Explicit CORS configuration on the backend
