@@ -95,12 +95,6 @@ This project gave me the opportunity to:
 
 ---
 
-## Architecture
-
-React frontend → Express API → PostgreSQL/PostGIS → Global Forest Watch API
-
----
-
 ## API routes
 
 ### Auth
